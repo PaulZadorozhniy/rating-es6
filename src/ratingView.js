@@ -5,9 +5,9 @@ class RatingView {
   }
 
   renderList(participants) {
-  	this.ratingView.innerHTML = participants.map(
-  		participant => `<li>${participant.name} ${participant.points}</li>`
-  	).join('');
+    this.ratingView.innerHTML = participants.map(
+      participant => `<li>${participant.name} ${participant.points}</li>`
+    ).join('');
   }
 }
 
